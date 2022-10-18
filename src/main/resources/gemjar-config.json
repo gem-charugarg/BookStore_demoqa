@@ -1,0 +1,16 @@
+{
+  "environment": "prod",
+  "projectName": "GemJar-Sample-BDD-Project",
+  "reportName": "my-gem-jar-report",
+  "glueCode": "org.example.StepDefination",
+  "dev": {
+    "browserName": "firefox",
+    "launchUrl": "https://demoqa.com/books",
+    "browserTimeout": 100
+  },
+  "prod": {
+    "browserName": "chrome",
+    "launchUrl": "https://demoqa.com/books",
+    "browserTimeout": 100
+  }
+}
